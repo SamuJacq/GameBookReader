@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderJacqueminS.Avalonia.HomeWindow">
+	<ScrollViewer HorizontalAlignment="Center" VerticalScrollBarVisibility="Auto">
+		<StackPanel Margin="8" Spacing="8">
+			<StackPanel x:Name="Rechercher" HorizontalAlignment="Center" Orientation="Horizontal">
+				<TextBlock>Recherche Livre</TextBlock>
+				<TextBox x:Name="InputRechercher" Width="250" Watermark="" />
+				<ComboBox x:Name="filtre" SelectedIndex="0">
+					<ComboBoxItem x:Name="filtreDefault">
+						<TextBlock>filtre</TextBlock>
+					</ComboBoxItem>
+					<ComboBoxItem x:Name="filtreTitle">
+						<TextBlock>titre</TextBlock>
+					</ComboBoxItem>
+					<ComboBoxItem x:Name="filtreISBN">
+						<TextBlock>isbn</TextBlock>
+					</ComboBoxItem>
+				</ComboBox>
+				<Button x:Name="boutonRechercher" Click="Start_Recherche">
+					rechercher
+				</Button>
+				<Button x:Name="BoutonStat" Click="Watch_Stat">
+					voir stat
+				</Button>
+			</StackPanel>
+			<StackPanel IsVisible="false" x:Name="NoBD" HorizontalAlignment="Center" Margin="8">
+				<TextBlock>la base de donnée n'est pas accessible, veuillez vous connecter au réseau d'Helmo avec le VPN si besoin</TextBlock>
+			</StackPanel>
+			<StackPanel IsVisible="false" x:Name="NoBook" HorizontalAlignment="Center" Margin="8">
+				<TextBlock>il n'y a pas de livre publier pour l'instant, désolée :'(</TextBlock>
+			</StackPanel>
+			<StackPanel IsVisible="false" x:Name="NoResult" HorizontalAlignment="Center" Margin="8">
+				<TextBlock>Aucune résultat</TextBlock>
+			</StackPanel>
+			<StackPanel x:Name="ShowBook" HorizontalAlignment="Center" Margin="8">
+				<WrapPanel x:Name="DescriptionBookPanel"></WrapPanel>
+			</StackPanel>
+		</StackPanel>
+	</ScrollViewer>
+</UserControl>

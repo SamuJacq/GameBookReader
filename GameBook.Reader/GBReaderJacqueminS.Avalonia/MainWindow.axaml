@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="GBReaderJacqueminS.MainWindow"
+		FontFamily="verdana, sans-serif" FontSize="18"
+        Title="GBReaderJacqueminS">
+	<ScrollViewer x:Name="MainView" VerticalScrollBarVisibility="Auto">
+		<StackPanel Margin="8" Spacing="8">
+			<StackPanel Margin="8" Spacing="8">
+				<TextBlock x:Name="ErrorBD">
+					nous avons pas su vous connecter à la base de donnée du logiciel,
+					pour régler le problème, vérifier si vous êtes bien connecter au réseau d'Helmo,
+					vérifier aussi si vous avez activé le VPN pour se connecter au réseau d'Helmo
+				</TextBlock>
+			</StackPanel>
+	        <WrapPanel x:Name="HomeViewPanel" HorizontalAlignment="Center"/>
+	        <WrapPanel x:Name="ReadViewPanel" HorizontalAlignment="Center"/>
+	        <WrapPanel x:Name="StatViewPanel" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
+ 

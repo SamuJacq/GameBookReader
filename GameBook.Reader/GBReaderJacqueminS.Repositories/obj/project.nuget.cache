@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EKyTwDrdKSTpfb0cYq/JeCHGd4bJJ7ZDR39Ubb7h4RbM171D0bAFYdd6aLCXhMy4p3dCfyBfW8hmVW0TL4dHOA==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\GBReaderJacqueminS\\GBReaderJacqueminS.Repositories\\GBReaderJacqueminS.Repositories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samja\\.nuget\\packages\\ncss.analyzer\\1.0.0\\ncss.analyzer.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderJacqueminS.Avalonia.ReadWindow">
+	<StackPanel x:Name="Read" Margin="8">
+		<StackPanel x:Name="Header">
+			<TextBlock x:Name="Title" Text="title" FontSize="30"/>
+			<Button x:Name="BoutonHome" Click="Return_Home">Accueil</Button>
+			<TextBlock x:Name="Isbn" Text="isbn" FontSize="30"/>
+		</StackPanel>
+		<StackPanel x:Name="ListBouton"/>
+			<Button x:Name="Restart" IsVisible="false">Recommencer</Button>
+		</StackPanel>
+</UserControl>

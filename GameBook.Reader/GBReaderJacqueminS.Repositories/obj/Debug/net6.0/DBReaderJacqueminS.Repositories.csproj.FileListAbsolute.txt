@@ -1,0 +1,15 @@
+C:\dev\GBReaderJacqueminS\Repositories\bin\Debug\net6.0\DBReaderJacqueminS.Repositories.deps.json
+C:\dev\GBReaderJacqueminS\Repositories\bin\Debug\net6.0\DBReaderJacqueminS.Repositories.dll
+C:\dev\GBReaderJacqueminS\Repositories\bin\Debug\net6.0\DBReaderJacqueminS.Repositories.pdb
+C:\dev\GBReaderJacqueminS\Repositories\bin\Debug\net6.0\GBReaderJacqueminS.Domains.dll
+C:\dev\GBReaderJacqueminS\Repositories\bin\Debug\net6.0\GBReaderJacqueminS.Domains.pdb
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.csproj.AssemblyReference.cache
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.AssemblyInfoInputs.cache
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.AssemblyInfo.cs
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.csproj.CoreCompileInputs.cache
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.csproj.CopyComplete
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.dll
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\refint\DBReaderJacqueminS.Repositories.dll
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\DBReaderJacqueminS.Repositories.pdb
+C:\dev\GBReaderJacqueminS\Repositories\obj\Debug\net6.0\ref\DBReaderJacqueminS.Repositories.dll

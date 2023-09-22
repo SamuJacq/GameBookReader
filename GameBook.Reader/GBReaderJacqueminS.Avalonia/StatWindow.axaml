@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderJacqueminS.Avalonia.StatWindow">
+	<StackPanel x:Name="Stat">
+		<TextBlock x:Name="Title" Text="title" FontSize="30" >
+			Statistique 
+		</TextBlock>
+		<Button x:Name="BoutonHome" Click="Return_Home">
+			Accueil
+		</Button>
+		<TextBlock x:Name="BookInLecture"/>
+		<StackPanel x:Name="StatList"/>
+	</StackPanel>
+</UserControl>
